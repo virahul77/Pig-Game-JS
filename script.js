@@ -139,7 +139,7 @@ instructions.onclick = function(){
   overlay.classList.remove('hidden');
 }
 overlay.onclick = closeModal;
-modal.onclick = (e)=> e.stopPropagation()
+modal.onclick = (e)=> e.stopPropagation();
 modalClose.onclick = closeModal;
 function closeModal(){
   overlay.classList.add('hidden');
